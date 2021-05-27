@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nHere is a list of Algebraic formulas –\n\n1. a2 – b2 = (a – b)(a + b)\n\n
+2. (a + b)2 = a2 + 2ab + b2\n\n
+3. a2 + b2 = (a + b)2 – 2ab\n\n
+4. (a – b)2 = a2 – 2ab + b2\n\n
+5. (a + b + c)2 = a2 + b2 + c2 + 2ab + 2bc + 2ca\n\n
+6. (a – b – c)2 = a2 + b2 + c2 – 2ab + 2bc – 2ca\n\n
+7. (a + b)3 = a3 + 3a2b + 3ab2 + b3 ; (a + b)3 = a3 + b3 + 3ab(a + b)\n\n
+8. (a – b)3 = a3 – 3a2b + 3ab2 – b3 = a3 – b3 – 3ab(a – b)\n\n
+9. a3 – b3 = (a – b)(a2 + ab + b2)\n\n
+10. a3 + b3 = (a + b)(a2 – ab + b2)\n\n
+11. (a + b)4 = a4 + 4a3b + 6a2b2 + 4ab3 + b4\n\n
+12. (a – b)4 = a4 – 4a3b + 6a2b2 – 4ab3 + b4\n\n
+13. a4 – b4 = (a – b)(a + b)(a2 + b2)\n\n
+14. a5 – b5 = (a – b)(a4 + a3b + a2b2 + ab3 + b4)\n\n
+15. If n is a natural number an – bn = (a – b)(an-1 + an-2b+…+ bn-2a + bn-1)\n\n
+16. If n is even (n = 2k), an + bn = (a + b)(an-1 – an-2b +…+ bn-2a – bn-1)\n\n
+17. If n is odd (n = 2k + 1), an + bn = (a + b)(an-1 – an-2b +an-3b2…- bn-2a + bn-1)\n\n
+18. (a + b + c + …)2 = a2 + b2 + c2 + … + 2(ab + ac + bc + ….)\n\n
+19. Laws of Exponents (am)(an) = am+n ; (ab)m = ambm ; (am)n = amn\n\n
+20. Fractional Exponents a0 = 1 ; aman=am−n ; am = 1a−m ; a−m = 1am\n\n"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
